@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SURVEY FORM_CORONAVIRUS</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <!-- this survey form aims to test the awareness of coronavirus among the citizens --->
+    <form>
+      <div id="BasicInfo">
+        <tr>
+          <td colspan="3"><h1>Basic Information:</h1><td>
+        </tr>
+        <tr>
+          <td id="firstname">First Name:</td>
+          <td class="input_col"><input type="text" id="fname" required  onblur="valfname();"></td>
+          <td class="check"><span id="fnameprompt">&nbsp;</span></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+          <td id="secondname">Second Name:</td>
+          <td class="input_col"><input type="text" id="sname" onblur="valsname();"></td>
+          <td class="check"><span id="snameprompt">&nbsp;</span></td
+        </tr>
+        <br>
+        <br>
+        <tr>
+          <td id="emailid">E-Mail ID:</td>
+          <td class="input_col"><input type="text" id="email" onblur="valemail();"></td>
+          <td class="check"><span id="emailprompt">&nbsp;</span></td
+        </tr>
+        <br>
+        <br>
+        <tr>
+          <td id="dateofbirth">Date Of Birth:</td>
+          <td class="input_col"><input type="date" id="dob" onblur="valdob();"></td>
+          <td class="check"><span id="dobprompt">&nbsp;</span></td
+        </tr>
+
+        <br>
+        <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="otherinfo">
+        <tr>
+          <td colspan="3"><h1>Other<br> Information:</h1><td>
+        </tr>
+
+        <tr>
+          <td id="gender">YOUR GENDER:</td><br>
+          <td class="input_col"><input type="radio" id="g" name="gender" value="Male">Male</td>
+          <td class="input_col"><input type="radio" id="g" name="gender" value="Female">Female</td>
+          <td class="input_col"><input type="radio" id="g" name="gender" value="Others">Others</td>
+        </tr>
+        <br>
+        <br>
+      <tr>
+        <td id="agegroup">Age Group:</td><br>
+        <td class="input_col"><input type="radio" id="ag" name="agegroup" value="<15"><15</td>
+        <td class="input_col"><input type="radio" id="ag" name="agegroup" value="15-18">15-18</td>
+        <td class="input_col"><input type="radio" id="ag" name="agegroup" value="18-25">18-25</td>
+        <br>
+        <td class="input_col"><input type="radio" id="ag" name="agegroup" value="25-35">25-35</td>
+        <td class="input_col"><input type="radio" id="ag" name="agegroup" value="35-50">35-50</td>
+        <td class="input_col"><input type="radio" id="ag" name="agegroup" value=">50">>50</td>
+      </tr>
+      <br>
+      <br>
+      <tr>
+        <td id="llevel">Literacy Level:</td><br>
+        <td class="input_col"><input type="radio" id="ll" name="llevel" value="<110th"><10th</td>
+        <td class="input_col"><input type="radio" id="ll" name="llevel" value="10th">10th</td>
+        <td class="input_col"><input type="radio" id="ll" name="llevel" value="12th">12th</td>
+        <br>
+        <br>
+        <td class="input_col"><input type="radio" id="ll" name="llevel" value="Graduation">Graduation</td>
+        <td class="input_col"><input type="radio" id="ll" name="llevel" value="Masters">Masters</td>
+        <td class="input_col"><input type="radio" id="ll" name="llevel" value="PHD">PHD</td>
+      </tr>
+
+      <br>
+      <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="GeneralQuestions">
+    <tr>
+      <td colspan=3><h1>General Questions</h1></td>
+    </tr>
+    <tr>
+     <td class="label_col">Have you recently gone abroad?</td><br>
+     <td class="input_col"><input type="radio" id="ga" value="yes">YES</td>
+     <td class="input_col"><input type="radio" id="ga" value="no">NO</td>
+    </tr>
+
+    <br>
+    <br>
+
+    <tr>
+     <td class="label_col">Have you met with any person of known case?</td><br>
+     <td class="input_col"><input type="radio" id="kc" value="yes">YES</td>
+     <td class="input_col"><input type="radio" id="kc" value="no">NO</td>
+    </tr>
+
+    <br>
+    <br>
+
+    <tr>
+
+      <td class="label_col">SELECT ALL SYMPTOMS THAT APPLY:</td><br>
+      <td class="input_col"><input type="checkbox" id="symptoms" value="fatigue">FATIGUE</td><br>
+      <td class="input_col"><input type="checkbox" id="symptoms" value="respiratory problems">RESPIRATORY PROBLEMS</td><br>
+      <td class="input_col"><input type="checkbox" id="symptoms" value="sore throat">SORE THROAT</td><br>
+      <td class="input_col"><input type="checkbox" id="symptoms" value="sneezing">SNEEZING</td><br>
+      <td class="input_col"><input type="checkbox" id="symptoms" value="cough">COUGH</td><br>
+      <td class="input_col"><input type="checkbox" id="symptoms" value="runningnose">RUNNING NOSE</td><br>
+
+    </tr>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="primary">
+      <a target="_blank" href="C:\Users\amrit\Documents\peer_graded_assignment_surveyform_coronavirus\amrit.jpg">
+    <img src="amrit.jpg">
+      </a>
+    <div class=secondary>
+      <h3 style="color:brown;">CREATOR<br>AMRIT SHUKLA</h3>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
